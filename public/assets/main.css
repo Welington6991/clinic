@@ -1,0 +1,87 @@
+/* Botões */
+._btnCortarBanner {
+	position: absolute;
+	left: 30%;
+	top: 85%;
+	font-size: 20px !important;
+	color: #0070E0;
+}
+._btnCortarBanner:hover {
+	color: blue;
+}
+._btnDeletarBanner {
+	float: right;
+	margin-right: 30%;
+	font-size: 20px !important;
+	color: #ec5e69;
+}
+._btnDeletarBanner:hover {
+	color: red;
+}
+.buttonEditListing {
+	font-size: 20px;
+	margin-right: 10px;
+	color: #0070E0;
+}
+.buttonEditListing:hover {
+	color: blue;
+}
+.buttonDeleteListing {
+	font-size: 20px;
+	margin-left: 10px;
+}
+.buttonDeleteListing {
+	font-size: 20px;
+	color: #ec5e69;
+}
+.buttonDeleteListing:hover{
+	color: red;
+}
+.addTable {
+	margin-bottom: 25px;
+}
+._btnSalvar {
+	margin-top: 10px;
+}
+._btnCancelar {
+	margin-top: 10px;
+	float: right;
+}
+/* Cores dos Icones de Edição */
+._iconeUpload {
+	font-size: 72px;
+}
+._textoUpload {
+	margin-top: -70px;
+}
+/* Titulo Listagem */
+.breadcrumb-header {
+	color: black;
+}
+/* Tabelas de Listagem */
+.table > thead > tr > th {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+.table > tbody > tr > td {
+	text-align: center;
+}
+/* Summernote */
+.note-editable {
+	padding: 10px;
+	word-wrap: break-word;
+	outline: none;
+	margin-top: 7px;
+	border: 1px solid #C1C7CD !important;
+}
+/* Checkbox Block */
+._checkboxBlock {
+	padding: 5px;
+	display: block;
+}
+
+#imagem_lista img{
+	width: 300px !important;
+	height: 150px !important;
+}

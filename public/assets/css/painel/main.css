@@ -1,0 +1,381 @@
+@font-face {
+	font-family: "Ubuntu-B";
+	src: url("../../fonts/Ubuntu-B.ttf");
+}
+
+@font-face {
+	font-family: "Ubuntu-L";
+	src: url("../../fonts/Ubuntu-L.ttf");
+}
+
+body {
+	background-color: white;
+}
+
+/* Menu de Navegação */
+
+.client {
+	font-family: "Ubuntu-L" !important;
+	font-size: 14px;
+}
+
+.enterprise {
+	font-family: "Ubuntu-B" !important;
+	font-size: 12px;
+}
+
+.active { 
+	color: #0691D0 !important;
+}
+
+.liMenu span {
+	font-family: "Ubuntu-B";
+	font-size: 14px;
+}
+
+a {
+	color: transparent;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	box-shadow: 0 1px transparent;
+}
+
+/* Erro de Formulário */
+.form-group > span {
+	color: red;
+}
+
+/* Botões */
+
+.buttonScheduleListing {
+	font-size: 20px;
+	color: #e46600;
+}
+
+.buttonScheduleListing:hover {
+	color: #ff7300;
+}
+
+.buttonEditListing {
+	padding-right: 15px;
+	font-size: 20px;
+	color: #0070E0;
+}
+
+.buttonEditListing:hover {
+	color: blue;
+}
+
+.buttonDeleteListing {
+	padding-left: 15px;
+	font-size: 20px;
+	color: #ec5e69;
+}
+
+.buttonDeleteListing:hover{
+	color: red;
+}
+
+.addTable {
+	margin-bottom: 25px;
+}
+
+/* Titulo Listagem */
+.breadcrumb-header {
+	color: black;
+}
+
+/* Tabelas de Listagem */
+.table > thead > tr > th {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+
+.table > tbody > tr > td {
+	text-align: center;
+}
+
+/* Login, Esquci minha senha, Redefinição de Senha */
+.btnLogin {
+	margin-top: 15px !important;
+	width: 100% !important;
+}
+
+/* Tabelas Listagem */
+
+.page-header{
+	-webkit-box-shadow: 0px 2px 12px 2px rgba(115,122,135,0.25);
+-moz-box-shadow: 0px 2px 12px 2px rgba(115,122,135,0.25);
+box-shadow: 0px 2px 12px 2px rgba(115,122,135,0.25);
+padding-top: 8px;
+height: 71px !important;
+}
+
+.page-header .navbar-nav > li > a > img{
+		width: 30px;
+		height: 30px;
+		margin-top: -5px;
+}
+
+.page-header .navbar-nav > li > a{
+	font-size: 12px;
+	font-family: Ubuntu,sans-serif !important;
+	text-transform: inherit;
+	color: #4f4f4f;
+}
+
+.buttonMenu{
+	margin-left: 50px !important;
+}
+
+.textClinic{
+    color: #0070E0!important;
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.logo-box{
+	padding: 22px 20px 11px;
+	background-color: #f2f0f5;
+}
+
+@media (max-width: 991px) {
+	.logo-box span img{
+		width: 80%;
+		height: 80%;
+	}
+}
+
+.imgUserSidebar{
+	width: 80px;
+	height: 80px;
+}
+
+.li-bordered{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.li-bordered > .client {
+	font-family: "Ubuntu-Light";
+	font-size: 14px;
+	color: #596b8c;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.li-bordered > .enterprise{
+	font-family: "Ubuntu-Bold";
+	font-size: 12px;
+	color: #596b8c;
+	margin-top: 0;
+}
+
+.iconsusers > .row{
+	margin: 0 auto;
+}
+
+.page-sidebar{
+	background-color: #f0f2f5;
+}
+
+.displayNone{
+	display: none;
+}
+
+.imgUserSidebar.colapse{
+	width: 25px;
+	height: 25px;
+}
+
+.pt0{
+	padding-top: 0 !important;
+}
+
+.mt0{
+	margin-top: 0 !important;
+}
+
+
+@media (min-width: 992px) {
+	.logout{
+		display: none !important;
+	}
+}
+
+@media (max-width: 991px) {
+	.logout{
+		display: inline-block !important;
+	}
+}
+
+.iconshover:hover > a > i{
+	color: #0691D0 !important;
+}
+
+.iconshover2:hover{
+color: #0691D0 !important;
+}
+
+.page-sidebar-menu ul li.li-bordered a{
+	padding: 9px 0px;
+}
+
+.imageLogin{
+	background-size: cover;
+	background-position: center;
+}
+
+.login-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-box > div{
+	width: 100%;
+}
+
+@keyframes opacityalter {
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
+
+.form-login{
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid blue;
+	transition: all .3s;
+}
+
+.form-login::placeholder{
+	opacity: 1;
+	transition: all .3s;
+}
+
+.form-login:focus{
+	border-bottom: 2px solid green;
+	outline: none;
+}
+
+.form-login:focus:invalid{
+	border-bottom: 2px solid red;
+}
+
+.box-input-logn{
+	position: relative;
+}
+
+.label-login{
+	opacity: 0;
+  display: block;
+  transition: all .3s;
+  position: absolute;
+  top: 50%;
+}
+
+.form-login:focus + .label-login{
+	opacity: 1;
+	top: -20px;
+}
+
+.form-login:focus::placeholder{
+	opacity: 0;
+}
+
+td{
+	vertical-align: middle !important;
+}
+
+.userMobile{
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.userMobile{
+		display: block;
+		float: right;
+		margin-top: 15px;
+		position: relative;
+		padding-right: 35px;
+	}
+
+	.userMobile img{
+		position: absolute;
+		height: 30px;
+		width: 30px;
+		top: -5px;
+		right: 0;
+		z-index: 99;
+	}
+
+	.userMobileOpen{
+		display: none;
+		position: absolute;
+		top: 45px;
+		background-color: #fff;
+		width: 200px;
+		left: -100px;
+		border: 2px solid #eee;
+		padding: 20px;
+	}
+
+	.userMobileOpen::before{
+		content: '';
+		background-color: #fff;
+		width: 20px;
+		height: 10px;
+		display: block;
+		position: absolute;
+		top: -10px;
+		right: 30%;
+		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+		z-index: 99;
+	}
+
+	.userMobileOpen::after{
+		content: '';
+		background-color: #eee;
+		width: 22px;
+		height: 11px;
+		display: block;
+		position: absolute;
+		top: -12px;
+		right: 29.5%;
+		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	}
+
+	.userMobileOpen.open{
+		display: block;
+	}
+
+	.userMobileInfos > img{
+		width: 60px;
+		height: 60px;
+		position: relative;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.userMobileInfos > span{
+		text-align: center;
+		display: block;
+	}
+
+	.optionInfoUser{
+		margin-top: 10px;
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+	}
+}
